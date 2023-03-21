@@ -1,0 +1,55 @@
+@using etapa3.Models
+@model Contato
+
+@{
+  ViewData["Title"] = "Contato";
+}
+
+<html lang="PT-br">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title><a class="titulo">Contato</a></title>
+      <style type="text/css">
+body{
+  background-color: #1652f85d;
+}
+hr{
+  background-color: black;
+}
+</style>
+</head>
+
+    <body>
+        <h1><center>Word Tech Store</center></h1> 
+        <p> </p>
+        <hr>
+        <h2><center>Contato</center></h2>
+        <h2><center>Compre Nossos Produtos Pelo WhatsApp da Loja!</center></h2>
+        <a href="https://api.whatsapp.com/send?phone=5521995455821&text=Ol%C3%A1!%20Estou%20interessado%2C%20pode%20me%20ajudar%3F"> <center><img width="50" height="50" src="https://logodownload.org/wp-content/uploads/2015/04/whatsapp-logo-1.png" class="media-object  img-responsive img-thumbnail"></center></a>
+        <h3>-Word Tech Store</h3>
+        <h3>-Rio de Janeiro</h3>
+        <h3>Ou então complete o formulário que entraremos em contato com você!</h3>
+        <form action="Contato" method="POST">
+         <p>
+        <label>Nome:</label>
+        <input asp-for="nome" autocomplete="off" required>
+        </p>
+        <p>
+        <label>Email:</label>
+        <input asp-for="email" autocomplete="off" required>
+        </p>
+        <p>
+        <label>Mensagem:</label>
+        <input asp-for="mensagem" autocomplete="off" required>
+        </p>
+        <input type="submit" value="Enviar" >  
+    
+        </form>
+        <h1><center>Estaremos esperando seu contato!</center></h1>
+
+
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>

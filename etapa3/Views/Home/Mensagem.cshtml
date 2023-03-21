@@ -1,0 +1,33 @@
+@using etapa3.Models
+@model List<Contato>
+
+@{
+    ViewData["Title"] = "Mensagem";
+}
+<link rel="stylesheet" href="css/Mensagem.css"/>
+
+<h2>Descrição da Mensagem</h2>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>E-mail</th>
+            <th>Mensagem</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (Contato item in Model)
+        {
+            <tr>
+                <td>@item.nome</td>
+                <td>@item.email</td>
+                <td>@item.mensagem</td>
+            </tr>
+
+        }
+
+    </tbody>
+
+</table>

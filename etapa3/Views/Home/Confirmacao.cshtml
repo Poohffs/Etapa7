@@ -1,0 +1,38 @@
+@{
+    ViewData["Title"] = "Confirmação";
+}
+<html lang="PT-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <style type="text/css">
+body{
+  background-color: #1231bb4b;
+}
+h1{
+  font-size: 5rem;
+  color: black;
+}
+p{
+  font-size: 2rem;
+  color: rgb(7, 1, 1);
+}
+
+hr{
+  background-color: black;
+}
+
+</style>
+</head>
+<body>
+<h1><center>Mensagem enviada com sucesso!</center></h1>
+<hr>
+<h2><center>Aguarde e entraremos em Contato o mais rápido possivel!</center></h2>
+
+<p>Nome: @ViewBag.nome</p>
+<p>E-mail: @ViewBag.email </p>
+<p>Mensagem: @ViewBag.mensagem </p>
+</body>
+</html>

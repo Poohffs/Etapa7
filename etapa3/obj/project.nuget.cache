@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "P1B+1arCbMK9VgRVVLFKSn2GoE3SZGguz32g8cQUS6T4fznBhehcvrwsXCZInq+dKI4l84Vvb63J3y+MaEkK4g==",
+  "success": true,
+  "projectFilePath": "E:\\melissa\\Curso de TI Melissa\\entregues\\etapa3\\etapa3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\melcl\\.nuget\\packages\\mysqlconnector\\2.2.0\\mysqlconnector.2.2.0.nupkg.sha512",
+    "C:\\Users\\melcl\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\melcl\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\melcl\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

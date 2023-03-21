@@ -1,0 +1,37 @@
+.titulo{
+    font-size: 5rem;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 1px rgb(11, 9, 107), 2px 2px 1px rgba(255, 255, 255, 0.699);
+    text-align: center;
+  }
+  
+  
+  body{
+      background-color: #080f70e5;
+      background-image: url(img/logo.png);
+      background-size: cover; 
+  }
+  
+  hr{
+   background-color: black;
+  }
+  h1{
+    text-align: center;
+    color: rgb(246, 246, 248);
+    display: inline-block;
+    position: static;
+  }
+  
+  h2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+      margin-left: left;
+      margin-right: auto; 
+    display: inline-block;
+    position: center;
+      margin-left: 100px;
+      margin-right: 10px;
+      margin-top: 0px;
+  
+  }
